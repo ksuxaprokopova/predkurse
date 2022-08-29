@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body , html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+p{
+    margin: 0;
+}
+
+h1, h2, h3{
+    margin: 0;
+    font-weight: 400;
+}
+
+.conteiner{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.preview{
+    background: black;
+}
+
+.preview .conteiner{
+    display: flex;
+}
+
+.header{
+    margin-bottom: 154px;
+}
+
+.preview_left{
+    padding-top: 26px;  
+}
+
+.preview_content{
+     max-width: 500px;  
+}
+
+.preview_subtitle{
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.preview_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.preview_text{
+    font-size: 15px;
+    line-height: 18px;
+    padding-right: 20px;
+}
+
+.about-me{
+    background-color:black;
+}
+
+.about-me .conteiner{
+    position: relative;
+    padding: 120px 0 96px 0;
+}
+
+.about-me_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.about-me_avatar{
+    margin-bottom: 50px;
+}
+
+.about-me_name{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-me_text{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 450px;
+}
+
+.about-me_section-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 320px;
+    color: #6236FF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+    white-space: nowrap ;
+    z-index: 1;
+}
+
+.avatar{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar_icon{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ststistics{
+    padding: 122px 0 125px;
+    background: url(./img/statistics.png) center center;
+}
