@@ -19,9 +19,38 @@ h1, h2, h3{
     font-weight: 400;
 }
 
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color:transparent;
+    padding: 0;
+    border: none;
+    color: #fff;
+}
+
 .conteiner{
     width: 1440px;
     margin: 0 auto;
+}
+
+.button{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.button::before{
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    width: 65px;
+    background-color: #fff;
+    margin-right: 30px;
+    vertical-align: middle;
 }
 
 .preview{
@@ -68,7 +97,7 @@ h1, h2, h3{
 }
 
 .about-me{
-    background-color:black;
+    background-color: #000000;
 }
 
 .about-me .conteiner{
@@ -90,8 +119,6 @@ h1, h2, h3{
 
 .about-me_name{
     font-size: 18px;
-    line-height: 27px;
-    text-align: center;
     letter-spacing: 10px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -106,10 +133,8 @@ h1, h2, h3{
 
 .about-me_section-title{
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 240px;
-    line-height: 320px;
     color: #6236FF;
     mix-blend-mode: normal;
     opacity: 0.3;
@@ -134,7 +159,97 @@ h1, h2, h3{
     object-fit: cover;
 }
 
-.ststistics{
+.statistics{
     padding: 122px 0 125px;
-    background: url(./img/statistics.png) center center;
+    background: url(./img/statistics.png) center center no-repeat;
+    background-size: cover;
+}
+
+.statistics_list{
+    display: flex;
+    justify-content: center;
+
+}
+
+.statistics_item{
+    text-align: center;
+    margin-right: 100px;
+}
+
+.statistics_item:last-child{
+    margin-right: 0;
+}
+
+.statistics_value{
+    font-size: 80px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.statistics_text{
+    font-size: 24px;
+}
+
+.plan{
+    padding: 92px 0 120px;
+    background-color: #000000;
+}
+
+.plan_content{
+    text-align: center;
+    margin-bottom: 84px;
+}
+
+.plan_subtitle{
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.plan_title{
+    font-family: 'Montserrat';
+    font-size: 48px;
+}
+
+.plan_list{
+    display: flex;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.plan_item{
+    flex: 1;
+    border-right: 1px solid #fff;
+    padding: 60px 30px;
+}
+
+.plan_item:first-child{
+    border-left: 1px solid #fff;
+}
+
+.plan_item-title{
+    font-family: 'Montserrat';
+    font-size: 34px;
+    margin-bottom: 27px;
+}
+ 
+.plan_item-name{
+    font-size: 14px;
+    line-height: 64px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.plan_item-cost{
+    font-family: 'Montserrat';
+    font-size: 34px;
+    line-height: 51px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.plan_item-button{
+    text-align: right;
 }
