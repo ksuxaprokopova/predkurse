@@ -103,6 +103,7 @@ button{
 .about-me .conteiner{
     position: relative;
     padding: 120px 0 96px 0;
+    background-color: #000000;
 }
 
 .about-me_content{
