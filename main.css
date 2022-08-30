@@ -32,13 +32,10 @@ button{
 }
 
 .conteiner{
-    width: 1440px;
+   
     margin: 0 auto;
 }
 
-.sections{
-    width: 1440px;
-}
 
 .button{
     font-size: 14px;
@@ -63,6 +60,8 @@ button{
 
 .preview .conteiner{
     display: flex;
+    width: 1440px;
+    background-color: #000000;
 }
 
 .header{
@@ -70,11 +69,12 @@ button{
 }
 
 .preview_left{
-    padding-top: 26px;  
+    padding-top: 26px; 
+   
 }
 
 .preview_content{
-     max-width: 500px;  
+    max-width: 500px;
 }
 
 .preview_subtitle{
