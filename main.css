@@ -341,3 +341,69 @@ button{
     cursor: pointer;
     opacity: .7;
 }
+
+.footer{
+    background: #000000;
+    padding: 79px 0 81px;
+}
+
+.footer .conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    margin-bottom: 31px;
+}
+
+.footer_socials{
+    margin-bottom: 30px;
+}
+.footer_copyright{
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.18182px;
+    text-transform: uppercase;
+}
+
+.menu_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_item{
+    margin-right: 31px;
+}
+
+.menu_item :last-child{
+    margin-right: 0;
+}
+
+.menu_link{
+    text-decoration: none;
+    font-size: 16px;
+  
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.socials_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials_item{
+    margin-right: 30px;
+}
+
+.socials_item:last-child{
+    margin-right: 0;
+}
+
+.socials_icon{
+    cursor: pointer;
+}
