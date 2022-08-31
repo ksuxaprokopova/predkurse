@@ -29,6 +29,7 @@ button{
     padding: 0;
     border: none;
     color: #fff;
+    cursor: pointer;
 }
 
 .conteiner{
@@ -101,13 +102,13 @@ button{
 }
 
 .about-me{
-    background-color: #000000;
+    background-color:#101011;
 }
 
 .about-me .conteiner{
     position: relative;
     padding: 120px 0 96px 0;
-    background-color: #000000;
+    background-color:#101011 ;
 }
 
 .about-me_content{
@@ -198,7 +199,7 @@ button{
 
 .plan{
     padding: 92px 0 120px;
-    background-color: #000000;
+    background-color:#101011 ;
 }
 
 .plan_content{
@@ -257,4 +258,86 @@ button{
 
 .plan_item-button{
     text-align: right;
+}
+
+.form{
+    background-color:#101011;
+    
+}
+ .form .conteiner{
+    padding: 120px 160px;
+ }
+
+.form_content{
+    background-color: #000000;
+    padding: 51px 0 60px;
+    text-align: center;
+   
+}
+
+.form_title{
+    font-family: 'Montserrat';
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.form_text{
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 644px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.form_blok{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 543px;
+}
+
+.form_input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+
+    color: #fff;
+
+    padding-left: 15px;
+}
+
+.form_button{
+    font-size: 15px;                 
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    padding: 9px 13px;
+    align-self: flex-end;
+}
+
+.gallery{
+    background-color:#101011
+}
+
+.gallery_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_item{
+    height: 360px;
+    width: 360px;
+    transition: opacity .4s;
+}
+
+.gallery_item:hover{
+    cursor: pointer;
+    opacity: .7;
 }
