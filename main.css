@@ -31,11 +31,15 @@ button{
     color: #fff;
     cursor: pointer;
 }
-
-.conteiner{
-    margin: 0 auto;
+.wraper{
+    overflow: hidden;
 }
 
+.conteiner{
+    width: 1440px;
+    margin: 0 auto;
+    max-width: 100%;
+}
 
 .button{
     font-size: 14px;
@@ -548,4 +552,125 @@ button{
 .portfolio_buttons{
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width:550px){
+    .footer{
+        padding: 101px 0  46px;
+    }
+    .gallery_item{
+        height: 276px;
+        width: 50%;
+        overflow: hidden;
+    }
+    .gallery_item:nth-child(n+ 5){
+        display: none;
+    }
+    .form .conteiner{
+        padding: 120px 0;
+    }
+    .form_content{
+        padding: 32px 50px 58px 50px;
+    }
+    .plan_list{
+        flex-wrap: wrap;
+        border: 1px solid #fff;
+    }
+    .plan_item{
+        width: 100%;
+        padding: 17px 28px 15px;
+    }
+    .plan_item:first-child{
+        border-left: none;
+        border-bottom: 1px solid #fff;
+    }
+    .plan_item:last-child{
+        border-right: none;
+    }
+        
+    .plan_item:nth-child(2){
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+    .plan_item-title{
+        font-size: 28px;
+    }
+    .plan_item-name{
+        line-height: 50px;
+    }
+    .plan_item-cost{
+        text-align: left;
+    }
+    .plan_item-button{
+        display: none;
+    }
+    .plan-title{
+     font-size: 38px;
+    }
+    .plan{
+        padding: 100px 0 105px;
+    }
+    .statistics_list{
+        flex-direction: column;
+    }
+    .statistics_item{
+        margin-right: 0;
+        margin-bottom: 45px;
+    }
+    .statistics_item:last-child{
+        margin-bottom: 0;
+    }
+    .statistics_value{
+        font-size: 50px;
+    }
+    .statistics{
+        padding: 50px 0 60px;
+    }
+    .feedback_buttons{
+        padding: 0 45px;
+    }
+    .portfolio_buttons{
+        padding: 0 45px;
+    }
+    .portfolio_title{
+        font-size: 38px;
+    }
+    .about-me_section-title{
+        font-size: 90px;
+        top: 84px;
+    }
+    .avatar{
+        height: 200px;
+        width: 200px;
+    }
+    .avatar--60{
+        height: 60px;width: 60px;
+    }
+    .preview .conteiner{
+        flex-direction: column;
+    }
+    .preview_right{
+        height: 800px;
+    }
+    .preview_img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .preview_left{
+        padding-top: 41px;
+        padding-left: 51px;
+        padding-bottom: 27px;
+    }
+    .preview_title{
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .header{
+        margin-bottom: 58px;
+    }
+    .feedback_item{
+        width: 353px;
+        flex-shrink: 0;
+    }
 }
